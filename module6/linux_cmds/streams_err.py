@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+data = input("This will come from STDIN: ")
+print("Now we write it to STDOUT: "+ data)
+raise ValueError("Now we generate error to STDERR")
+
